@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+#cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    width: 38%;
+}
+
+#img1 {
+    width: 45%;
+    border-radius: 30px;
+}
+
+#title {
+   
+    color: red;
+    width: 45%;
+}
+
+h2 {
+    color: blue;
+    text-shadow: 0px 0px 5px blueviolet;
+    text-align: center;
+}
+
+#box_direito {
+   width: 100%;
+}
+
+#rodape,
+#rodape2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+
+}
+#conteudo{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#img2{
+    width: 200px;
+    height: 300px;
+}
+
+.linkv {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#midia {
+    color: white;
+    margin: auto;
+}
+
+i {
+    font-size: 40px;
+    color: white;
+}
+
+.linkbr {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-top: 16px;
+    list-style-type:none;
+}
+
+h3 {
+   text-align: center;
+}
+
+#termos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+
+#termos a {
+    margin: 0 10px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#conteudo,#rodape {
+    margin-top: 20px;
+}
+
+.lisul{
+    margin-left: 20px;
+}
+
+.main {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    width: min-content;
+    padding: 60px;
+    align-items: center;
+    color: #2b344b ;
+    font-family: "poppins" ,sans-serif ;
+}
+
+
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+}
+#i {
+    color: #fd5754;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+input , textarea , select {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.but { 
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+button {
+    background: linear-gradient(-45deg , #ffce51 , #ff7253 , #fd5754) ;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    outline: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+span {
+    font-size: x-small;
+}
+
+#opcoes {
+    font-size: large;
+
+}
+
+#priv {
+    display: flex; 
+    align-items: flex-end;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 94%;
+    
+}
+
+#priv input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+}
+#polit {
+    color: black;
+
+}
+
